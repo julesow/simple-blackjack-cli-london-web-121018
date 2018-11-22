@@ -32,11 +32,13 @@ end
 
 def initial_round
   # code #initial_round here
-  2.times do 
-    deal_card
-  end
+  deal_card
+  deal_card
+  # 2.times do 
+  #   deal_card
+  # end
  
-  display_card_total(d1+d2)
+  # display_card_total(d1+d2)
 end
 
 def hit?
