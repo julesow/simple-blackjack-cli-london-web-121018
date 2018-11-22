@@ -40,7 +40,7 @@ end
 
 def hit?(card_total)
   # # code hit? here
-  # prompt_user
+    prompt_user
   # get_user_input
   # case get_user_input 
   #   when 's'
