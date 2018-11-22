@@ -42,7 +42,6 @@ def hit?(card_total)
   # # code hit? here
     prompt_user
     answer = get_user_input
-    return answer
     case answer
       when 's'
         nil 
