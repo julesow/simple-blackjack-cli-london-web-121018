@@ -41,8 +41,8 @@ end
 def hit?(card_total)
   # # code hit? here
     prompt_user
-    get_user_input
-    case get_user_input 
+    answer = get_user_input
+    case answer
       when 's'
         nil 
       when 'h'
