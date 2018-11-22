@@ -44,7 +44,7 @@ def hit?(card_total)
     answer = get_user_input
     case answer
       when 's'
-        nil 
+        card_total 
       when 'h'
         d = deal_card
         card_total+=d
